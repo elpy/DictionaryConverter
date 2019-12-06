@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"bson::bson::ProductTarget" /* bson */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_119 /* Build configuration list for PBXAggregateTarget "bson" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = bson;
+			productName = bson;
+		};
+		"dictionaryConverter::dictionaryConverterPackageTests::ProductTarget" /* dictionaryConverterPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_138 /* Build configuration list for PBXAggregateTarget "dictionaryConverterPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_141 /* PBXTargetDependency */,
+			);
+			name = dictionaryConverterPackageTests;
+			productName = dictionaryConverterPackageTests;
+		};
+		"mongoc::mongoc::ProductTarget" /* mongoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_154 /* Build configuration list for PBXAggregateTarget "mongoc" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = mongoc;
+			productName = mongoc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3A9C296323981695004455F4 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C2961239815F3004455F4 /* Language.swift */; };
+		3A9C298B239A6F77004455F4 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9C2989239A6F50004455F4 /* DependencyContainer.swift */; };
+		3AE9B70B2397EF4300BD4571 /* DictionaryDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A807EEB239568840063B03C /* DictionaryDataStore.swift */; };
+		3AE9B70C2397EF4900BD4571 /* MongoDBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B7092397EE9700BD4571 /* MongoDBDataStore.swift */; };
+		3AE9B70D2397EF5600BD4571 /* PartOfSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B6FE2397E97E00BD4571 /* PartOfSpeech.swift */; };
+		3AE9B70E2397EF5600BD4571 /* DictionaryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B7002397EB4D00BD4571 /* DictionaryRecord.swift */; };
+		3AE9B70F2397EF5600BD4571 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B7022397EB6500BD4571 /* Translation.swift */; };
+		3AE9B7102397EF5600BD4571 /* Synonym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B7042397EB9100BD4571 /* Synonym.swift */; };
+		3AE9B7112397EF5600BD4571 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B7062397EBAC00BD4571 /* Example.swift */; };
+		3AE9B7142397F34400BD4571 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9B7122397F32900BD4571 /* Extensions.swift */; };
+		OBJ_100 /* DropCollectionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* DropCollectionOperation.swift */; };
+		OBJ_101 /* DropDatabaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* DropDatabaseOperation.swift */; };
+		OBJ_102 /* DropIndexesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* DropIndexesOperation.swift */; };
+		OBJ_103 /* FindAndModifyOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* FindAndModifyOperation.swift */; };
+		OBJ_104 /* NextOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* NextOperation.swift */; };
+		OBJ_105 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Operation.swift */; };
+		OBJ_106 /* RunCommandOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* RunCommandOperation.swift */; };
+		OBJ_107 /* ReadConcern.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* ReadConcern.swift */; };
+		OBJ_108 /* ReadPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* ReadPreference.swift */; };
+		OBJ_109 /* SDAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* SDAM.swift */; };
+		OBJ_110 /* WriteConcern.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* WriteConcern.swift */; };
+		OBJ_117 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Package.swift */; };
+		OBJ_127 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
+		OBJ_129 /* MongoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MongoSwift::MongoSwift::Product" /* MongoSwift.framework */; };
+		OBJ_136 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_147 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XCTestManifests.swift */; };
+		OBJ_148 /* dictionaryConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* dictionaryConverterTests.swift */; };
+		OBJ_150 /* MongoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "MongoSwift::MongoSwift::Product" /* MongoSwift.framework */; };
+		OBJ_70 /* APM.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* APM.swift */; };
+		OBJ_71 /* AnyBSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* AnyBSONValue.swift */; };
+		OBJ_72 /* BSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* BSONDecoder.swift */; };
+		OBJ_73 /* BSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* BSONEncoder.swift */; };
+		OBJ_74 /* BSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* BSONValue.swift */; };
+		OBJ_75 /* CodableNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* CodableNumber.swift */; };
+		OBJ_76 /* CodingStrategies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* CodingStrategies.swift */; };
+		OBJ_77 /* Document+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Document+Codable.swift */; };
+		OBJ_78 /* Document+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Document+Collection.swift */; };
+		OBJ_79 /* Document+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Document+Sequence.swift */; };
+		OBJ_80 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Document.swift */; };
+		OBJ_81 /* DocumentIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* DocumentIterator.swift */; };
+		OBJ_82 /* Overwritable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Overwritable.swift */; };
+		OBJ_83 /* ClientSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ClientSession.swift */; };
+		OBJ_84 /* MongoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* MongoClient.swift */; };
+		OBJ_85 /* MongoCollection+BulkWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* MongoCollection+BulkWrite.swift */; };
+		OBJ_86 /* MongoCollection+FindAndModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* MongoCollection+FindAndModify.swift */; };
+		OBJ_87 /* MongoCollection+Indexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* MongoCollection+Indexes.swift */; };
+		OBJ_88 /* MongoCollection+Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* MongoCollection+Read.swift */; };
+		OBJ_89 /* MongoCollection+Write.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* MongoCollection+Write.swift */; };
+		OBJ_90 /* MongoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* MongoCollection.swift */; };
+		OBJ_91 /* MongoCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* MongoCursor.swift */; };
+		OBJ_92 /* MongoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* MongoDatabase.swift */; };
+		OBJ_93 /* MongoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* MongoError.swift */; };
+		OBJ_94 /* MongoSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* MongoSwift.swift */; };
+		OBJ_95 /* MongoSwiftVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* MongoSwiftVersion.swift */; };
+		OBJ_96 /* CountOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* CountOperation.swift */; };
+		OBJ_97 /* CreateCollectionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* CreateCollectionOperation.swift */; };
+		OBJ_98 /* CreateIndexesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* CreateIndexesOperation.swift */; };
+		OBJ_99 /* DistinctOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* DistinctOperation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A807EE4239565D30063B03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "MongoSwift::MongoSwift";
+			remoteInfo = MongoSwift;
+		};
+		3A807EE5239565D50063B03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "dictionaryConverter::dictionaryConverter";
+			remoteInfo = dictionaryConverter;
+		};
+		3A807EE6239565D50063B03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "MongoSwift::MongoSwift";
+			remoteInfo = MongoSwift;
+		};
+		3A807EE7239565D60063B03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "dictionaryConverter::dictionaryConverterTests";
+			remoteInfo = dictionaryConverterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A807EEB239568840063B03C /* DictionaryDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDataStore.swift; sourceTree = "<group>"; };
+		3A9C2961239815F3004455F4 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		3A9C2989239A6F50004455F4 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		3AE9B6FE2397E97E00BD4571 /* PartOfSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOfSpeech.swift; sourceTree = "<group>"; };
+		3AE9B7002397EB4D00BD4571 /* DictionaryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRecord.swift; sourceTree = "<group>"; };
+		3AE9B7022397EB6500BD4571 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		3AE9B7042397EB9100BD4571 /* Synonym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synonym.swift; sourceTree = "<group>"; };
+		3AE9B7062397EBAC00BD4571 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		3AE9B7092397EE9700BD4571 /* MongoDBDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDBDataStore.swift; sourceTree = "<group>"; };
+		3AE9B7122397F32900BD4571 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		"MongoSwift::MongoSwift::Product" /* MongoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MongoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* dictionaryConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaryConverterTests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* APM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APM.swift; sourceTree = "<group>"; };
+		OBJ_19 /* AnyBSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyBSONValue.swift; sourceTree = "<group>"; };
+		OBJ_20 /* BSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSONDecoder.swift; sourceTree = "<group>"; };
+		OBJ_21 /* BSONEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSONEncoder.swift; sourceTree = "<group>"; };
+		OBJ_22 /* BSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSONValue.swift; sourceTree = "<group>"; };
+		OBJ_23 /* CodableNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableNumber.swift; sourceTree = "<group>"; };
+		OBJ_24 /* CodingStrategies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingStrategies.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Document+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+Codable.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* Document+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+Collection.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* Document+Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+Sequence.swift"; sourceTree = "<group>"; };
+		OBJ_28 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		OBJ_29 /* DocumentIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentIterator.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Overwritable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overwritable.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ClientSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSession.swift; sourceTree = "<group>"; };
+		OBJ_32 /* MongoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoClient.swift; sourceTree = "<group>"; };
+		OBJ_33 /* MongoCollection+BulkWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MongoCollection+BulkWrite.swift"; sourceTree = "<group>"; };
+		OBJ_34 /* MongoCollection+FindAndModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MongoCollection+FindAndModify.swift"; sourceTree = "<group>"; };
+		OBJ_35 /* MongoCollection+Indexes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MongoCollection+Indexes.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* MongoCollection+Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MongoCollection+Read.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* MongoCollection+Write.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MongoCollection+Write.swift"; sourceTree = "<group>"; };
+		OBJ_38 /* MongoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoCollection.swift; sourceTree = "<group>"; };
+		OBJ_39 /* MongoCursor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoCursor.swift; sourceTree = "<group>"; };
+		OBJ_40 /* MongoDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDatabase.swift; sourceTree = "<group>"; };
+		OBJ_41 /* MongoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoError.swift; sourceTree = "<group>"; };
+		OBJ_42 /* MongoSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoSwift.swift; sourceTree = "<group>"; };
+		OBJ_43 /* MongoSwiftVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoSwiftVersion.swift; sourceTree = "<group>"; };
+		OBJ_45 /* CountOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOperation.swift; sourceTree = "<group>"; };
+		OBJ_46 /* CreateCollectionOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectionOperation.swift; sourceTree = "<group>"; };
+		OBJ_47 /* CreateIndexesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIndexesOperation.swift; sourceTree = "<group>"; };
+		OBJ_48 /* DistinctOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctOperation.swift; sourceTree = "<group>"; };
+		OBJ_49 /* DropCollectionOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropCollectionOperation.swift; sourceTree = "<group>"; };
+		OBJ_50 /* DropDatabaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDatabaseOperation.swift; sourceTree = "<group>"; };
+		OBJ_51 /* DropIndexesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropIndexesOperation.swift; sourceTree = "<group>"; };
+		OBJ_52 /* FindAndModifyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndModifyOperation.swift; sourceTree = "<group>"; };
+		OBJ_53 /* NextOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextOperation.swift; sourceTree = "<group>"; };
+		OBJ_54 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		OBJ_55 /* RunCommandOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCommandOperation.swift; sourceTree = "<group>"; };
+		OBJ_56 /* ReadConcern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadConcern.swift; sourceTree = "<group>"; };
+		OBJ_57 /* ReadPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPreference.swift; sourceTree = "<group>"; };
+		OBJ_58 /* SDAM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAM.swift; sourceTree = "<group>"; };
+		OBJ_59 /* WriteConcern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteConcern.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/anton/Code/Scripts/Swift/dictionaryConverter/.build/checkouts/mongo-swift-driver/Package.swift"; sourceTree = "<group>"; };
+		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"dictionaryConverter::dictionaryConverter::Product" /* dictionaryConverter */ = {isa = PBXFileReference; lastKnownFileType = text; path = dictionaryConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		"dictionaryConverter::dictionaryConverterTests::Product" /* dictionaryConverterTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = dictionaryConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_129 /* MongoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_150 /* MongoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A807EE8239567FE0063B03C /* DictionaryDataStores */ = {
+			isa = PBXGroup;
+			children = (
+				3AE9B7082397EE7C00BD4571 /* MongoDBDataStore */,
+				3A807EEB239568840063B03C /* DictionaryDataStore.swift */,
+			);
+			path = DictionaryDataStores;
+			sourceTree = "<group>";
+		};
+		3A9C2987239A6E35004455F4 /* DependencyContainer */ = {
+			isa = PBXGroup;
+			children = (
+				3A9C2989239A6F50004455F4 /* DependencyContainer.swift */,
+			);
+			path = DependencyContainer;
+			sourceTree = "<group>";
+		};
+		3A9C2988239A6E4E004455F4 /* DictionaryConverter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DictionaryConverter;
+			sourceTree = "<group>";
+		};
+		3AE9B6FC2397E94800BD4571 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3A9C2987239A6E35004455F4 /* DependencyContainer */,
+				3A9C2988239A6E4E004455F4 /* DictionaryConverter */,
+				3A807EE8239567FE0063B03C /* DictionaryDataStores */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		3AE9B6FD2397E96900BD4571 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3AE9B6FE2397E97E00BD4571 /* PartOfSpeech.swift */,
+				3AE9B7002397EB4D00BD4571 /* DictionaryRecord.swift */,
+				3AE9B7022397EB6500BD4571 /* Translation.swift */,
+				3AE9B7042397EB9100BD4571 /* Synonym.swift */,
+				3AE9B7062397EBAC00BD4571 /* Example.swift */,
+				3A9C2961239815F3004455F4 /* Language.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3AE9B7082397EE7C00BD4571 /* MongoDBDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				3AE9B7092397EE9700BD4571 /* MongoDBDataStore.swift */,
+				3AE9B7122397F32900BD4571 /* Extensions.swift */,
+			);
+			path = MongoDBDataStore;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* dictionaryConverterTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* dictionaryConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* XCTestManifests.swift */,
+				OBJ_13 /* dictionaryConverterTests.swift */,
+			);
+			name = dictionaryConverterTests;
+			path = Tests/dictionaryConverterTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* MongoSwift 0.1.3 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_15 /* MongoSwift 0.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* MongoSwift */,
+				OBJ_60 /* Package.swift */,
+			);
+			name = "MongoSwift 0.1.3";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* MongoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* APM.swift */,
+				OBJ_18 /* BSON */,
+				OBJ_31 /* ClientSession.swift */,
+				OBJ_32 /* MongoClient.swift */,
+				OBJ_33 /* MongoCollection+BulkWrite.swift */,
+				OBJ_34 /* MongoCollection+FindAndModify.swift */,
+				OBJ_35 /* MongoCollection+Indexes.swift */,
+				OBJ_36 /* MongoCollection+Read.swift */,
+				OBJ_37 /* MongoCollection+Write.swift */,
+				OBJ_38 /* MongoCollection.swift */,
+				OBJ_39 /* MongoCursor.swift */,
+				OBJ_40 /* MongoDatabase.swift */,
+				OBJ_41 /* MongoError.swift */,
+				OBJ_42 /* MongoSwift.swift */,
+				OBJ_43 /* MongoSwiftVersion.swift */,
+				OBJ_44 /* Operations */,
+				OBJ_56 /* ReadConcern.swift */,
+				OBJ_57 /* ReadPreference.swift */,
+				OBJ_58 /* SDAM.swift */,
+				OBJ_59 /* WriteConcern.swift */,
+			);
+			name = MongoSwift;
+			path = ".build/checkouts/mongo-swift-driver/Sources/MongoSwift";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* BSON */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* AnyBSONValue.swift */,
+				OBJ_20 /* BSONDecoder.swift */,
+				OBJ_21 /* BSONEncoder.swift */,
+				OBJ_22 /* BSONValue.swift */,
+				OBJ_23 /* CodableNumber.swift */,
+				OBJ_24 /* CodingStrategies.swift */,
+				OBJ_25 /* Document+Codable.swift */,
+				OBJ_26 /* Document+Collection.swift */,
+				OBJ_27 /* Document+Sequence.swift */,
+				OBJ_28 /* Document.swift */,
+				OBJ_29 /* DocumentIterator.swift */,
+				OBJ_30 /* Overwritable.swift */,
+			);
+			path = BSON;
+			sourceTree = "<group>";
+		};
+		OBJ_44 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_45 /* CountOperation.swift */,
+				OBJ_46 /* CreateCollectionOperation.swift */,
+				OBJ_47 /* CreateIndexesOperation.swift */,
+				OBJ_48 /* DistinctOperation.swift */,
+				OBJ_49 /* DropCollectionOperation.swift */,
+				OBJ_50 /* DropDatabaseOperation.swift */,
+				OBJ_51 /* DropIndexesOperation.swift */,
+				OBJ_52 /* FindAndModifyOperation.swift */,
+				OBJ_53 /* NextOperation.swift */,
+				OBJ_54 /* Operation.swift */,
+				OBJ_55 /* RunCommandOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"dictionaryConverter::dictionaryConverter::Product" /* dictionaryConverter */,
+				"MongoSwift::MongoSwift::Product" /* MongoSwift.framework */,
+				"dictionaryConverter::dictionaryConverterTests::Product" /* dictionaryConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* DictionaryConverter */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* DictionaryConverter */ = {
+			isa = PBXGroup;
+			children = (
+				3AE9B6FD2397E96900BD4571 /* Domain */,
+				3AE9B6FC2397E94800BD4571 /* CoreLayer */,
+				OBJ_9 /* main.swift */,
+			);
+			name = DictionaryConverter;
+			path = Sources/DictionaryConverter;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"MongoSwift::MongoSwift" /* MongoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_66 /* Build configuration list for PBXNativeTarget "MongoSwift" */;
+			buildPhases = (
+				OBJ_69 /* Sources */,
+				OBJ_111 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoSwift;
+			productName = MongoSwift;
+			productReference = "MongoSwift::MongoSwift::Product" /* MongoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"MongoSwift::SwiftPMPackageDescription" /* MongoSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_113 /* Build configuration list for PBXNativeTarget "MongoSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_116 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoSwiftPackageDescription;
+			productName = MongoSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"dictionaryConverter::SwiftPMPackageDescription" /* dictionaryConverterPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_132 /* Build configuration list for PBXNativeTarget "dictionaryConverterPackageDescription" */;
+			buildPhases = (
+				OBJ_135 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dictionaryConverterPackageDescription;
+			productName = dictionaryConverterPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"dictionaryConverter::dictionaryConverter" /* dictionaryConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_123 /* Build configuration list for PBXNativeTarget "dictionaryConverter" */;
+			buildPhases = (
+				OBJ_126 /* Sources */,
+				OBJ_128 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_130 /* PBXTargetDependency */,
+			);
+			name = dictionaryConverter;
+			productName = dictionaryConverter;
+			productReference = "dictionaryConverter::dictionaryConverter::Product" /* dictionaryConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+		"dictionaryConverter::dictionaryConverterTests" /* dictionaryConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_143 /* Build configuration list for PBXNativeTarget "dictionaryConverterTests" */;
+			buildPhases = (
+				OBJ_146 /* Sources */,
+				OBJ_149 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_151 /* PBXTargetDependency */,
+				OBJ_152 /* PBXTargetDependency */,
+			);
+			name = dictionaryConverterTests;
+			productName = dictionaryConverterTests;
+			productReference = "dictionaryConverter::dictionaryConverterTests::Product" /* dictionaryConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "dictionaryConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"MongoSwift::MongoSwift" /* MongoSwift */,
+				"MongoSwift::SwiftPMPackageDescription" /* MongoSwiftPackageDescription */,
+				"bson::bson::ProductTarget" /* bson */,
+				"dictionaryConverter::dictionaryConverter" /* dictionaryConverter */,
+				"dictionaryConverter::SwiftPMPackageDescription" /* dictionaryConverterPackageDescription */,
+				"dictionaryConverter::dictionaryConverterPackageTests::ProductTarget" /* dictionaryConverterPackageTests */,
+				"dictionaryConverter::dictionaryConverterTests" /* dictionaryConverterTests */,
+				"mongoc::mongoc::ProductTarget" /* mongoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_117 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_127 /* main.swift in Sources */,
+				3A9C296323981695004455F4 /* Language.swift in Sources */,
+				3AE9B70E2397EF5600BD4571 /* DictionaryRecord.swift in Sources */,
+				3AE9B70D2397EF5600BD4571 /* PartOfSpeech.swift in Sources */,
+				3AE9B70C2397EF4900BD4571 /* MongoDBDataStore.swift in Sources */,
+				3A9C298B239A6F77004455F4 /* DependencyContainer.swift in Sources */,
+				3AE9B7112397EF5600BD4571 /* Example.swift in Sources */,
+				3AE9B7142397F34400BD4571 /* Extensions.swift in Sources */,
+				3AE9B7102397EF5600BD4571 /* Synonym.swift in Sources */,
+				3AE9B70B2397EF4300BD4571 /* DictionaryDataStore.swift in Sources */,
+				3AE9B70F2397EF5600BD4571 /* Translation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_136 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_147 /* XCTestManifests.swift in Sources */,
+				OBJ_148 /* dictionaryConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_70 /* APM.swift in Sources */,
+				OBJ_71 /* AnyBSONValue.swift in Sources */,
+				OBJ_72 /* BSONDecoder.swift in Sources */,
+				OBJ_73 /* BSONEncoder.swift in Sources */,
+				OBJ_74 /* BSONValue.swift in Sources */,
+				OBJ_75 /* CodableNumber.swift in Sources */,
+				OBJ_76 /* CodingStrategies.swift in Sources */,
+				OBJ_77 /* Document+Codable.swift in Sources */,
+				OBJ_78 /* Document+Collection.swift in Sources */,
+				OBJ_79 /* Document+Sequence.swift in Sources */,
+				OBJ_80 /* Document.swift in Sources */,
+				OBJ_81 /* DocumentIterator.swift in Sources */,
+				OBJ_82 /* Overwritable.swift in Sources */,
+				OBJ_83 /* ClientSession.swift in Sources */,
+				OBJ_84 /* MongoClient.swift in Sources */,
+				OBJ_85 /* MongoCollection+BulkWrite.swift in Sources */,
+				OBJ_86 /* MongoCollection+FindAndModify.swift in Sources */,
+				OBJ_87 /* MongoCollection+Indexes.swift in Sources */,
+				OBJ_88 /* MongoCollection+Read.swift in Sources */,
+				OBJ_89 /* MongoCollection+Write.swift in Sources */,
+				OBJ_90 /* MongoCollection.swift in Sources */,
+				OBJ_91 /* MongoCursor.swift in Sources */,
+				OBJ_92 /* MongoDatabase.swift in Sources */,
+				OBJ_93 /* MongoError.swift in Sources */,
+				OBJ_94 /* MongoSwift.swift in Sources */,
+				OBJ_95 /* MongoSwiftVersion.swift in Sources */,
+				OBJ_96 /* CountOperation.swift in Sources */,
+				OBJ_97 /* CreateCollectionOperation.swift in Sources */,
+				OBJ_98 /* CreateIndexesOperation.swift in Sources */,
+				OBJ_99 /* DistinctOperation.swift in Sources */,
+				OBJ_100 /* DropCollectionOperation.swift in Sources */,
+				OBJ_101 /* DropDatabaseOperation.swift in Sources */,
+				OBJ_102 /* DropIndexesOperation.swift in Sources */,
+				OBJ_103 /* FindAndModifyOperation.swift in Sources */,
+				OBJ_104 /* NextOperation.swift in Sources */,
+				OBJ_105 /* Operation.swift in Sources */,
+				OBJ_106 /* RunCommandOperation.swift in Sources */,
+				OBJ_107 /* ReadConcern.swift in Sources */,
+				OBJ_108 /* ReadPreference.swift in Sources */,
+				OBJ_109 /* SDAM.swift in Sources */,
+				OBJ_110 /* WriteConcern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "MongoSwift::MongoSwift" /* MongoSwift */;
+			targetProxy = 3A807EE4239565D30063B03C /* PBXContainerItemProxy */;
+		};
+		OBJ_141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "dictionaryConverter::dictionaryConverterTests" /* dictionaryConverterTests */;
+			targetProxy = 3A807EE7239565D60063B03C /* PBXContainerItemProxy */;
+		};
+		OBJ_151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "dictionaryConverter::dictionaryConverter" /* dictionaryConverter */;
+			targetProxy = 3A807EE5239565D50063B03C /* PBXContainerItemProxy */;
+		};
+		OBJ_152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "MongoSwift::MongoSwift" /* MongoSwift */;
+			targetProxy = 3A807EE6239565D50063B03C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-mongoc",
+					"$(SRCROOT)/.build/checkouts/swift-bson",
+				);
+				INFOPLIST_FILE = dictionaryConverter.xcodeproj/dictionaryConverter_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lmongoc-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = dictionaryConverter;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-mongoc",
+					"$(SRCROOT)/.build/checkouts/swift-bson",
+				);
+				INFOPLIST_FILE = dictionaryConverter.xcodeproj/dictionaryConverter_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lmongoc-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = dictionaryConverter;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-mongoc",
+					"$(SRCROOT)/.build/checkouts/swift-bson",
+				);
+				INFOPLIST_FILE = dictionaryConverter.xcodeproj/dictionaryConverterTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lmongoc-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = dictionaryConverterTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-mongoc",
+					"$(SRCROOT)/.build/checkouts/swift-bson",
+				);
+				INFOPLIST_FILE = dictionaryConverter.xcodeproj/dictionaryConverterTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lmongoc-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = dictionaryConverterTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-mongoc",
+					"$(SRCROOT)/.build/checkouts/swift-bson",
+				);
+				INFOPLIST_FILE = dictionaryConverter.xcodeproj/MongoSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lmongoc-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = MongoSwift;
+			};
+			name = Debug;
+		};
+		OBJ_68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-mongoc",
+					"$(SRCROOT)/.build/checkouts/swift-bson",
+				);
+				INFOPLIST_FILE = dictionaryConverter.xcodeproj/MongoSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+					"-I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lmongoc-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+					"-L/usr/local/Cellar/mongo-c-driver/1.15.1/lib",
+					"-lbson-1.0",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libmongoc-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0 -I/usr/local/Cellar/mongo-c-driver/1.15.1/include/libbson-1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = MongoSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = MongoSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_113 /* Build configuration list for PBXNativeTarget "MongoSwiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_114 /* Debug */,
+				OBJ_115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_119 /* Build configuration list for PBXAggregateTarget "bson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_120 /* Debug */,
+				OBJ_121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_123 /* Build configuration list for PBXNativeTarget "dictionaryConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_124 /* Debug */,
+				OBJ_125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_132 /* Build configuration list for PBXNativeTarget "dictionaryConverterPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_133 /* Debug */,
+				OBJ_134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_138 /* Build configuration list for PBXAggregateTarget "dictionaryConverterPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_139 /* Debug */,
+				OBJ_140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_143 /* Build configuration list for PBXNativeTarget "dictionaryConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_144 /* Debug */,
+				OBJ_145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_154 /* Build configuration list for PBXAggregateTarget "mongoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_155 /* Debug */,
+				OBJ_156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "dictionaryConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_66 /* Build configuration list for PBXNativeTarget "MongoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_67 /* Debug */,
+				OBJ_68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
