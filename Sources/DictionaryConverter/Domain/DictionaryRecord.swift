@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol DictionaryRecord {
-    var id: UUID { get }
-    var language: Language { get }
-    var text: String { get }
-    var partOfSpeech: PartOfSpeech { get }
-    var transcription: String { get }
-    var translations: [Translation] { get }
+struct DictionaryRecord {
+    let id: UUID
+    let language: Language
+    let text: String
+    let partOfSpeech: PartOfSpeech
+    let transcription: String
+    let translations: [Translation]
 }

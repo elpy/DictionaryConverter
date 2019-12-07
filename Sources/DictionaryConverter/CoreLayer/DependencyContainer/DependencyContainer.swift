@@ -18,12 +18,12 @@ class DependencyContainer {
     
     // MARK: Methods
     
-    func makeMongoDBDataStore() throws -> DictionaryDataStore {
+    func makeMongoDataStore() throws -> DictionaryDataStore {
         let client = try MongoClient("mongodb://\(host):\(port)")
         let db = client.db(databaseName)
         let colleaction = db.collection(engRusDictionaryName)
         
-        return MongoDBDataStore(collection: colleaction)
+        return MongoDataStore(collection: colleaction)
     }
     
     deinit {

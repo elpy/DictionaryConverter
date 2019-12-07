@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "dictionaryConverter::dictionaryConverter"
-               BuildableName = "dictionaryConverter"
-               BlueprintName = "dictionaryConverter"
-               ReferencedContainer = "container:dictionaryConverter.xcodeproj">
+               BlueprintIdentifier = "DictionaryConverter::DictionaryConverter"
+               BuildableName = "DictionaryConverter"
+               BlueprintName = "DictionaryConverter"
+               ReferencedContainer = "container:DictionaryConverter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "dictionaryConverter::dictionaryConverterTests"
-               BuildableName = "dictionaryConverterTests.xctest"
-               BlueprintName = "dictionaryConverterTests"
-               ReferencedContainer = "container:dictionaryConverter.xcodeproj">
+               BlueprintIdentifier = "DictionaryConverter::DictionaryConverterTests"
+               BuildableName = "DictionaryConverterTests.xctest"
+               BlueprintName = "DictionaryConverterTests"
+               ReferencedContainer = "container:DictionaryConverter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,10 +54,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "dictionaryConverter::dictionaryConverter"
-            BuildableName = "dictionaryConverter"
-            BlueprintName = "dictionaryConverter"
-            ReferencedContainer = "container:dictionaryConverter.xcodeproj">
+            BlueprintIdentifier = "DictionaryConverter::DictionaryConverter"
+            BuildableName = "DictionaryConverter"
+            BlueprintName = "DictionaryConverter"
+            ReferencedContainer = "container:DictionaryConverter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>

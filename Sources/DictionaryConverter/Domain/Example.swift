@@ -7,10 +7,10 @@
 
 import Foundation
 
-protocol Example {
-    var text: String { get }
-    var translation: String { get }
-    var type: ExampleType { get }
+struct Example {
+    let text: String
+    let translation: String
+    let type: ExampleType
 }
 
 enum ExampleType {

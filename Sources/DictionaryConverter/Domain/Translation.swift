@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol Translation {
-    var text: String { get }
-    var relatedRecords: [String] { get }
-    var synonyms: [Synonym] { get }
-    var examples: [Example] { get }
+struct Translation {
+    let text: String
+    let relatedRecords: [String]
+    let synonyms: [Synonym]
+    let examples: [Example]
 }

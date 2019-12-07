@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Synonym {
-    var text: String { get }
-    var partOfSpeech: PartOfSpeech { get }
+struct Synonym {
+    let text: String
+    let partOfSpeech: PartOfSpeech
 }
