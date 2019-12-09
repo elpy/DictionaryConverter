@@ -5,19 +5,17 @@ let container = DependencyContainer()
 
 do {
     print("Connecting...")
-    let dataStore = try container.makeMongoDataStore()
-    let records = try dataStore.get()
-    
-    let filtered = records.filter { $0.text == "work" }
-    for record in filtered {
-        print(record)
-        print("")
-    }
+    let source = try container.makeMongoDataStore()
+    let destination = try container.makeRealmDataStore()
+
+    print("Processing...")
+    let records = try source.get()
+    try destination.add(records: records)
     
     print("Finished.")
 } catch DataStoreError.convertError(let message) {
     print(message)
 } catch {
-    print("Error")
+    print("Error \(error)")
 }
 

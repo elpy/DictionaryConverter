@@ -13,7 +13,7 @@ struct Example {
     let type: ExampleType
 }
 
-enum ExampleType {
-    case phrase
-    case sentence
+enum ExampleType: String {
+    case phrase = "phrase"
+    case sentence = "sentence"
 }
